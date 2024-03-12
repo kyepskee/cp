@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-DIR=./tests/
+DIR="${1:-'./tests/'}"
 
 FILES=$(find $DIR -name '*in*' -type f | sort -n)
 
