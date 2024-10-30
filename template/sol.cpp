@@ -5,7 +5,7 @@ using namespace std;
 #ifdef LOCAL
 #include "debug.h"
 #else
-#define debug(...)
+#define debug(...) {}
 #endif
 
 #define x first
