@@ -8,7 +8,6 @@
 #let file(name) = {
   let text = read("contest/" + name)
   
-  // box([
   block(
     breakable: false,
     [
@@ -17,7 +16,6 @@
       #raw(text)
       #line(length: 100%)
     ])
-  // ])
 }
 
 #file(".vimrc")
